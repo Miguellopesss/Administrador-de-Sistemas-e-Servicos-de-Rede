@@ -1,0 +1,30 @@
+Return-Path: <im@im.web>
+X-Original-To: im@im.web
+Delivered-To: im@im.web
+Received: from [10.14.40.1] (unknown [10.14.40.1])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+	 key-exchange ECDHE (P-256) server-signature RSA-PSS (2048 bits) server-digest SHA256)
+	(No client certificate requested)
+	by mail.localdomain (Postfix) with ESMTPSA id 64FCF10A6
+	for <im@im.web>; Thu,  9 May 2024 14:12:16 +0000 (UTC)
+Date: Thu, 09 May 2024 15:12:10 +0100
+From: im <im@im.web>
+Subject: Test one two test
+To: im@im.web
+Message-Id: <A428DS.8MZJ705QPARC@im.web>
+X-Mailer: geary/44.1
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="=-e0ZEqQlDb1LAdBX+sGo6"
+
+--=-e0ZEqQlDb1LAdBX+sGo6
+Content-Type: text/plain; charset=us-ascii; format=flowed
+
+Henlo
+
+
+--=-e0ZEqQlDb1LAdBX+sGo6
+Content-Type: text/html; charset=us-ascii
+
+<div id="geary-body" dir="auto"><div>Henlo</div></div>
+--=-e0ZEqQlDb1LAdBX+sGo6--
+

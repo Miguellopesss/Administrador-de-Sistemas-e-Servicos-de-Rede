@@ -1,0 +1,20 @@
+Date: Thu, 09 May 2024 15:09:23 +0100
+From: im <im@im.pt>
+Subject: Test one two test
+To: im@im.pt
+Message-Id: <NZ18DS.NMRYJ8LHOH58@im.pt>
+X-Mailer: geary/44.1
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="=-yLi2I7kIwSCGlHtF1OO5"
+
+--=-yLi2I7kIwSCGlHtF1OO5
+Content-Type: text/plain; charset=us-ascii; format=flowed
+
+henlo
+
+
+--=-yLi2I7kIwSCGlHtF1OO5
+Content-Type: text/html; charset=us-ascii
+
+<div id="geary-body" dir="auto"><div>henlo</div></div>
+--=-yLi2I7kIwSCGlHtF1OO5--

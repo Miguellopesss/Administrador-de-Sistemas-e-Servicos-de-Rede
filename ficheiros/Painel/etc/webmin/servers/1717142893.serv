@@ -1,0 +1,12 @@
+checkssl=
+type=ubuntu
+desc=
+port=10000
+group=Projeto
+host=10.14.40.5
+ssl=1
+user=im
+pass=asim2024
+id=1717142893
+fast=1
+file=/etc/webmin/servers/1717142893.serv

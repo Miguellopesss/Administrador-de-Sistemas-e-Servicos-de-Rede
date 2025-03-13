@@ -1,0 +1,27 @@
+global:
+ smtp_from: "alerts@asim.pt"
+ smtp_smarthost: "mail.asim.pt:587"
+ smtp_hello: "alerts"
+ smtp_auth_username: "alerts@asim.pt"
+ smtp_auth_password: "asim2024"
+route:
+  group_by: ['alertname']
+  group_wait: 30s
+  repeat_interval: 1h
+  receiver: 'email'
+receivers:
+  - name: 'web.hook'
+    webhook_configs:
+      - url: 'http://127.0.0.1:5001/'
+  - name: "email"
+    email_configs:
+      - send_resolved: true
+        to: "im@asim.pt"
+        tls_config:
+          insecure_skip_verify: true      
+inhibit_rules:
+  - source_match:
+      severity: 'critical'
+    target_match:
+      severity: 'warning'
+    equal: ['alertname', 'dev', 'instance']

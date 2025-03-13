@@ -1,0 +1,27 @@
+2024-06-12 17:17:59 Can't create a test hardlink between a file in /var/lib/backuppc/pc/10.14.40.2 and /var/lib/backuppc/cpool.  Either these are different file systems, or this file system doesn't support hardlinks, or these directories don't exist, or there is a permissions problem, or the file system is out of inodes or full.  Use df, df -i, and ls -ld to check each of these possibilities. Quitting...
+2024-06-12 17:20:25 Can't create a test hardlink between a file in /var/lib/backuppc/pc/10.14.40.2 and /var/lib/backuppc/cpool.  Either these are different file systems, or this file system doesn't support hardlinks, or these directories don't exist, or there is a permissions problem, or the file system is out of inodes or full.  Use df, df -i, and ls -ld to check each of these possibilities. Quitting...
+2024-06-12 17:22:43 Can't create a test hardlink between a file in /var/lib/backuppc/pc/10.14.40.2 and /var/lib/backuppc/cpool.  Either these are different file systems, or this file system doesn't support hardlinks, or these directories don't exist, or there is a permissions problem, or the file system is out of inodes or full.  Use df, df -i, and ls -ld to check each of these possibilities. Quitting...
+2024-06-12 17:26:40 Can't create a test hardlink between a file in /var/lib/backuppc/pc/10.14.40.2 and /var/lib/backuppc/cpool.  Either these are different file systems, or this file system doesn't support hardlinks, or these directories don't exist, or there is a permissions problem, or the file system is out of inodes or full.  Use df, df -i, and ls -ld to check each of these possibilities. Quitting...
+2024-06-12 17:27:07 Can't create a test hardlink between a file in /var/lib/backuppc/pc/10.14.40.2 and /var/lib/backuppc/cpool.  Either these are different file systems, or this file system doesn't support hardlinks, or these directories don't exist, or there is a permissions problem, or the file system is out of inodes or full.  Use df, df -i, and ls -ld to check each of these possibilities. Quitting...
+2024-06-12 17:51:02 full backup started for directory /etc/bind
+2024-06-12 17:51:03 Got fatal error during xfer (Unable to read 4 bytes)
+2024-06-12 17:51:08 Backup aborted (Unable to read 4 bytes)
+2024-06-12 17:52:27 full backup started for directory /etc/bind
+2024-06-12 17:52:28 full backup 0 complete, 18 files, 29551 bytes, 3 xferErrs (0 bad files, 0 bad shares, 3 other)
+2024-06-12 18:00:01 full backup started for directory /etc/bind (baseline backup #0)
+2024-06-12 18:00:01 full backup 1 complete, 18 files, 29551 bytes, 3 xferErrs (0 bad files, 0 bad shares, 3 other)
+2024-06-12 18:00:01 removing full backup 0
+2024-06-12 19:00:01 full backup started for directory /etc/bind (baseline backup #1)
+2024-06-12 19:00:02 full backup 2 complete, 18 files, 29551 bytes, 3 xferErrs (0 bad files, 0 bad shares, 3 other)
+2024-06-12 19:00:02 removing full backup 1
+2024-06-12 20:00:00 full backup started for directory /etc/bind (baseline backup #2)
+2024-06-12 20:00:01 full backup 3 complete, 18 files, 29551 bytes, 3 xferErrs (0 bad files, 0 bad shares, 3 other)
+2024-06-12 20:00:01 removing full backup 2
+2024-06-13 08:00:01 full backup started for directory /etc/bind (baseline backup #3)
+2024-06-13 08:00:02 full backup 4 complete, 18 files, 29551 bytes, 3 xferErrs (0 bad files, 0 bad shares, 3 other)
+2024-06-13 08:00:02 removing full backup 3
+2024-06-13 10:00:01 full backup started for directory /etc/bind (baseline backup #4)
+2024-06-13 10:00:02 full backup 5 complete, 18 files, 29551 bytes, 3 xferErrs (0 bad files, 0 bad shares, 3 other)
+2024-06-13 10:00:02 removing full backup 4
+2024-06-13 16:56:20 incr backup started back to 2024-06-13 10:00:01 (backup #5) for directory /etc/bind
+2024-06-13 16:56:21 incr backup 6 complete, 4 files, 25206 bytes, 3 xferErrs (0 bad files, 0 bad shares, 3 other)

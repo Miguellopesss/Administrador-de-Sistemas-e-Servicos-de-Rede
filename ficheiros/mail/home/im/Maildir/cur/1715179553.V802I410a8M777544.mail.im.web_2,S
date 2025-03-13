@@ -1,0 +1,87 @@
+Return-Path: <>
+X-Original-To: im@mail.im.web
+Delivered-To: im@mail.im.web
+Received: by mail.localdomain (Postfix)
+	id BD21ADF4; Wed,  8 May 2024 14:45:53 +0000 (UTC)
+Date: Wed,  8 May 2024 14:45:53 +0000 (UTC)
+From: MAILER-DAEMON@im.web (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: im@mail.im.web
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="EA56DB99.1715179553/mail.localdomain"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20240508144553.BD21ADF4@mail.localdomain>
+
+This is a MIME-encapsulated message.
+
+--EA56DB99.1715179553/mail.localdomain
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host mail.localdomain.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<iuri.carrasqueiro@gmail.com>: host gmail-smtp-in.l.google.com[173.194.76.26]
+    said: 550-5.7.26 This mail has been blocked because the sender is
+    unauthenticated. 550-5.7.26 Gmail requires all senders to authenticate with
+    either SPF or DKIM. 550-5.7.26  550-5.7.26  Authentication results:
+    550-5.7.26  DKIM = did not pass 550-5.7.26  SPF [mail.im.web] with ip:
+    [94.62.152.205] = did not pass 550-5.7.26  550-5.7.26  For instructions on
+    setting up authentication, go to 550 5.7.26
+    https://support.google.com/mail/answer/81126#authentication
+    e9-20020a056000194900b0034f1ec9b729si4296335wry.547 - gsmtp (in reply to
+    end of DATA command)
+
+--EA56DB99.1715179553/mail.localdomain
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; mail.localdomain
+X-Postfix-Queue-ID: EA56DB99
+X-Postfix-Sender: rfc822; im@mail.im.web
+Arrival-Date: Wed,  8 May 2024 14:45:51 +0000 (UTC)
+
+Final-Recipient: rfc822; iuri.carrasqueiro@gmail.com
+Original-Recipient: rfc822;iuri.carrasqueiro@gmail.com
+Action: failed
+Status: 5.7.26
+Remote-MTA: dns; gmail-smtp-in.l.google.com
+Diagnostic-Code: smtp; 550-5.7.26 This mail has been blocked because the sender
+    is unauthenticated. 550-5.7.26 Gmail requires all senders to authenticate
+    with either SPF or DKIM. 550-5.7.26  550-5.7.26  Authentication results:
+    550-5.7.26  DKIM = did not pass 550-5.7.26  SPF [mail.im.web] with ip:
+    [94.62.152.205] = did not pass 550-5.7.26  550-5.7.26  For instructions on
+    setting up authentication, go to 550 5.7.26
+    https://support.google.com/mail/answer/81126#authentication
+    e9-20020a056000194900b0034f1ec9b729si4296335wry.547 - gsmtp
+
+--EA56DB99.1715179553/mail.localdomain
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <im@mail.im.web>
+Received: by mail.localdomain (Postfix, from userid 1000)
+	id EA56DB99; Wed,  8 May 2024 14:45:51 +0000 (UTC)
+Subject: Mail Test
+To: <iuri.carrasqueiro@gmail.com>
+X-Mailer: mail (GNU Mailutils 3.7)
+Message-Id: <20240508144551.EA56DB99@mail.localdomain>
+Date: Wed,  8 May 2024 14:45:51 +0000 (UTC)
+From: im <im@mail.im.web>
+
+Test one two three test
+
+--EA56DB99.1715179553/mail.localdomain--

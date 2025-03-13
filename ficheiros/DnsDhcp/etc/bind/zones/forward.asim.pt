@@ -1,0 +1,35 @@
+;
+; BIND data file for local loopback interface
+;
+$TTL	604800
+@	IN	SOA	asim.pt. root.asim.pt. (
+			     15		; Serial
+			  304800	; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	IN	NS	Dnsdhcp.asim.pt.
+Dnsdhcp	IN	A	10.14.40.2
+asim.pt.  IN      A       10.14.40.5
+asim.pt.	IN	AAAA	fc25:db8::5
+asim.pt. 	IN 	MX 	10 	mail.asim.pt.
+mail	IN	A	10.14.40.6
+webmail IN	A	10.14.40.5
+Dnsdhcp	IN	AAAA	fc25:db8::2
+www	IN	CNAME	asim.pt.
+www.webmail  IN  CNAME  webmail.asim.pt.
+ftp	IN	CNAME	asim.pt.
+webmin	IN	A	10.14.40.5
+prometheus  IN      A       10.14.40.5
+grafana  IN      A       10.14.40.5
+alerts	IN	A	10.14.40.5
+backup	IN	A	10.14.40.5
+www.webmin  IN  CNAME  webmin.asim.pt.
+www.prometheus  IN  CNAME  prometheus.asim.pt.
+www.grafana  IN  CNAME  grafana.asim.pt.
+www.alerts  IN  CNAME  alerts.asim.pt.
+www.backup  IN  CNAME  backup.asim.pt.
+
+$INCLUDE Kasim.pt.+007+07824.key
+$INCLUDE Kasim.pt.+007+29357.key

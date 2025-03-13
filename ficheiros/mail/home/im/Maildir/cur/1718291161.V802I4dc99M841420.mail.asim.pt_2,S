@@ -1,0 +1,19 @@
+Return-Path: <im@asim.pt>
+X-Original-To: im
+Delivered-To: im@asim.pt
+Received: by mail.localdomain (Postfix, from userid 1000)
+	id CA596ECA; Thu, 13 Jun 2024 15:06:01 +0000 (UTC)
+From: root@asim.pt (Cron Daemon)
+To: im@asim.pt
+Subject: Cron <im@mail> /home/im/getstats.pl >> /home/im/scripts/log.log 2>>&1
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-Cron-Env: <SHELL=/bin/sh>
+X-Cron-Env: <HOME=/home/im>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=im>
+Message-Id: <20240613150601.CA596ECA@mail.localdomain>
+Date: Thu, 13 Jun 2024 15:06:01 +0000 (UTC)
+
+/bin/sh: 1: Syntax error: "&" unexpected

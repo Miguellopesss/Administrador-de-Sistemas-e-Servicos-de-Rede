@@ -1,0 +1,27 @@
+server {
+	listen 80;
+	listen [::]:80;	
+
+	server_name asim.pt;
+
+	return 301 https://$host$request_uri;	
+}
+
+server {
+	listen 443 ssl http2 default_server;
+	listen [::]:443 ssl http2 default_server;	
+
+
+    	include snippets/self-signed.conf;
+    	include snippets/ssl-params.conf;
+	
+	server_name asim.pt;
+
+	root /var/www/asim.pt;
+	index index.html;
+	
+	location / {
+		try_files $uri $uri/ =404;
+	}
+}
+

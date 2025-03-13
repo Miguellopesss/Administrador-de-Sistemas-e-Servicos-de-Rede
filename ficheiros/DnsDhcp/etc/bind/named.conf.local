@@ -1,0 +1,14 @@
+zone "asim.pt" IN {
+        type master;
+        file "/etc/bind/zones/forward.asim.pt.signed";
+        allow-transfer {10.14.40.9; };
+        notify yes;
+	also-notify { 10.14.40.9; }; // Notificar este servidor adicional sobre atualizações
+};
+zone "40.14.10.in-addr.arpa" IN {
+        type master;
+        file "/etc/bind/zones/reverse.asim.pt";
+	allow-transfer {10.14.40.9; };
+	notify yes;
+	also-notify { 10.14.40.9; }; // Notificar este servidor adicional sobre atualizações
+};

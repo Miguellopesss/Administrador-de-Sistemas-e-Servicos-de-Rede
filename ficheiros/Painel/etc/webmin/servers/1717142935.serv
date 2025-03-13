@@ -1,0 +1,11 @@
+desc=
+port=10000
+group=Projeto
+host=10.14.40.6
+ssl=1
+checkssl=
+type=ubuntu
+fast=1
+id=1717142935
+user=im
+pass=asim2024

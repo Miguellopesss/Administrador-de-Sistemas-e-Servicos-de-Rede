@@ -1,0 +1,27 @@
+// allow only LAN traffic from 10.14.40.0 a 10.14.40.255
+acl LAN {
+10.14.40.0/24;
+};
+
+options {
+	directory "/var/cache/bind";
+	rate-limit {
+        responses-per-second 5;
+        window 5;
+        };
+	listen-on port 53 { localhost;LAN; };
+	allow-transfer { none; };
+	forwarders {
+	 	172.22.1.101;
+                8.8.8.8;
+                8.8.4.4;
+	};
+
+	//========================================================================
+	// If BIND logs error messages about the root key being expired,
+	// you will need to update your keys.  See https://www.isc.org/bind-keys
+	//========================================================================
+	dnssec-enable yes;
+	dnssec-validation yes;
+	listen-on-v6 { any; };
+};

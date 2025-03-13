@@ -1,0 +1,11 @@
+checkssl=
+type=ubuntu
+port=10000
+desc=
+ssl=1
+host=10.14.40.7
+group=Projeto
+user=im
+pass=asim2024
+fast=1
+id=1717142958

@@ -1,0 +1,13 @@
+user=im
+pass=asim2024
+fast=1
+id=1717142722
+realhost=
+type=ubuntu
+port=10000
+ssl=1
+host=10.14.40.9
+checkssl=
+desc=
+file=/etc/webmin/servers/1717142722.serv
+group=Projeto

@@ -1,0 +1,20 @@
+Date: Thu, 09 May 2024 15:12:10 +0100
+From: im <im@im.web>
+Subject: Test one two test
+To: im@im.web
+Message-Id: <A428DS.8MZJ705QPARC@im.web>
+X-Mailer: geary/44.1
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="=-e0ZEqQlDb1LAdBX+sGo6"
+
+--=-e0ZEqQlDb1LAdBX+sGo6
+Content-Type: text/plain; charset=us-ascii; format=flowed
+
+Henlo
+
+
+--=-e0ZEqQlDb1LAdBX+sGo6
+Content-Type: text/html; charset=us-ascii
+
+<div id="geary-body" dir="auto"><div>Henlo</div></div>
+--=-e0ZEqQlDb1LAdBX+sGo6--

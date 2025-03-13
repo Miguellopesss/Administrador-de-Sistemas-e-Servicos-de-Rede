@@ -1,0 +1,132 @@
+2024-06-12 16:43:54 Reading hosts file
+2024-06-12 16:43:54 Added host localhost to backup list
+2024-06-12 16:43:54 BackupPC started, pid 5226
+2024-06-12 16:43:54 Running BackupPC_trashClean (pid=5227)
+2024-06-12 16:43:55 Next wakeup is 2024-06-12 17:00:00
+2024-06-12 17:00:00 Next wakeup is 2024-06-12 18:00:00
+2024-06-12 17:00:00 Started full backup on localhost (pid=8037, share=/etc)
+2024-06-12 17:00:08 Backup failed on localhost (Tar exited with error 512 () status)
+2024-06-12 17:00:08 Running BackupPC_link localhost (pid=8053)
+2024-06-12 17:00:08 Finished localhost (BackupPC_link localhost)
+2024-06-12 17:04:47 Got signal TERM... cleaning up
+2024-06-12 17:05:14 Reading hosts file
+2024-06-12 17:05:14 BackupPC started, pid 982
+2024-06-12 17:05:14 Running BackupPC_trashClean (pid=986)
+2024-06-12 17:05:14 Next wakeup is 2024-06-12 18:00:00
+2024-06-12 17:16:48 backuppc deleted host localhost
+2024-06-12 17:16:48 backuppc added host 10.14.40.2: {'dhcp' => '0','host' => '10.14.40.2','moreUsers' => '','user' => 'im'}
+2024-06-12 17:16:48 backuppc changed ServerInitdPath in main config to undef from ''
+2024-06-12 17:16:48 backuppc changed Ping6Path in main config to undef from ''
+2024-06-12 17:16:48 backuppc changed BackupFilesOnly in main config to {} from undef
+2024-06-12 17:16:48 backuppc changed CgiNavBarLinks in main config to [{'link' => '?action=view&type=docs','lname' => 'Documentation','name' => undef},{'link' => 'https://github.com/backuppc/backuppc/wiki','lname' => undef,'name' => 'Wiki'},{'link' => 'http://backuppc.sourceforge.net','lname' => undef,'name' => 'SourceForge'}] from [{'link' => '?action=view&type=docs','lname' => 'Documentation'},{'link' => 'https://github.com/backuppc/backuppc/wiki','name' => 'Wiki'},{'link' => 'http://backuppc.sourceforge.net','name' => 'SourceForge'}]
+2024-06-12 17:16:48 backuppc changed BackupFilesExclude in main config to {} from undef
+2024-06-12 17:16:48 backuppc added ParPath to main config, set to undef
+2024-06-12 17:16:48 Reloading config/host files via CGI request
+2024-06-12 17:16:48 Reading hosts file
+2024-06-12 17:16:48 Added host 10.14.40.2 to backup list
+2024-06-12 17:16:48 Deleted host localhost from backup list
+2024-06-12 17:16:48 Next wakeup is 2024-06-12 18:00:00
+2024-06-12 17:17:52 backuppc added RsyncShareName to host 10.14.40.2 config, set to ['/etc/bind']
+2024-06-12 17:17:52 backuppc added XferMethod to host 10.14.40.2 config, set to 'rsync'
+2024-06-12 17:17:59 User backuppc requested backup of 10.14.40.2 (10.14.40.2)
+2024-06-12 17:17:59 10.14.40.2: test hardlink between /var/lib/backuppc/pc/10.14.40.2 and /var/lib/backuppc/cpool failed
+2024-06-12 17:20:14 backuppc added RsyncRestoreArgs to host 10.14.40.2 config, set to ['--numeric-ids','--perms','--owner','--group','-D','--links','--times','--block-size=2048','--relative','--ignore-times','--recursive']
+2024-06-12 17:20:14 backuppc added RsyncArgs to host 10.14.40.2 config, set to ['--numeric-ids','--perms','--owner','--group','-D','--links','--times','--block-size=2048','--recursive']
+2024-06-12 17:20:25 User backuppc requested backup of 10.14.40.2 (10.14.40.2)
+2024-06-12 17:20:25 10.14.40.2: test hardlink between /var/lib/backuppc/pc/10.14.40.2 and /var/lib/backuppc/cpool failed
+2024-06-12 17:22:39 backuppc added TarShareName to host 10.14.40.2 config, set to ['/etc/bind']
+2024-06-12 17:22:39 backuppc changed XferMethod in host 10.14.40.2 config to 'tar' from 'rsync'
+2024-06-12 17:22:43 User backuppc requested backup of 10.14.40.2 (10.14.40.2)
+2024-06-12 17:22:43 10.14.40.2: test hardlink between /var/lib/backuppc/pc/10.14.40.2 and /var/lib/backuppc/cpool failed
+2024-06-12 17:26:35 backuppc changed RsyncArgs in main config to ['--numeric-ids','--perms','--owner','--group','-D','--links','--times','--block-size=2048','--recursive'] from ['--numeric-ids','--perms','--owner','--group','-D','--links','--hard-links','--times','--block-size=2048','--recursive']
+2024-06-12 17:26:35 backuppc changed XferMethod in main config to 'rsync' from 'smb'
+2024-06-12 17:26:35 backuppc changed RsyncRestoreArgs in main config to ['--numeric-ids','--perms','--owner','--group','-D','--links','--times','--block-size=2048','--relative','--ignore-times','--recursive'] from ['--numeric-ids','--perms','--owner','--group','-D','--links','--hard-links','--times','--block-size=2048','--relative','--ignore-times','--recursive']
+2024-06-12 17:26:35 Reloading config/host files via CGI request
+2024-06-12 17:26:35 Next wakeup is 2024-06-12 18:00:00
+2024-06-12 17:26:39 User backuppc requested backup of 10.14.40.2 (10.14.40.2)
+2024-06-12 17:26:40 10.14.40.2: test hardlink between /var/lib/backuppc/pc/10.14.40.2 and /var/lib/backuppc/cpool failed
+2024-06-12 17:27:03 backuppc changed XferMethod in host 10.14.40.2 config to 'rsync' from 'tar'
+2024-06-12 17:27:07 User backuppc requested backup of 10.14.40.2 (10.14.40.2)
+2024-06-12 17:27:07 10.14.40.2: test hardlink between /var/lib/backuppc/pc/10.14.40.2 and /var/lib/backuppc/cpool failed
+2024-06-12 17:29:51 Got signal TERM... cleaning up
+2024-06-12 17:50:25 Reading hosts file
+2024-06-12 17:50:25 BackupPC started, pid 2606
+2024-06-12 17:50:25 Running BackupPC_trashClean (pid=2607)
+2024-06-12 17:50:25 Next wakeup is 2024-06-12 18:00:00
+2024-06-12 17:51:01 User backuppc requested backup of 10.14.40.2 (10.14.40.2)
+2024-06-12 17:51:02 Started full backup on 10.14.40.2 (pid=2648, share=/etc/bind)
+2024-06-12 17:51:08 Backup failed on 10.14.40.2 (Unable to read 4 bytes)
+2024-06-12 17:52:23 backuppc added RsyncClientCmd to host 10.14.40.2 config, set to '$sshPath -q -x -l im $host $rsyncPath $argList+'
+2024-06-12 17:52:23 backuppc added RsyncClientRestoreCmd to host 10.14.40.2 config, set to '$sshPath -q -x -l im $host $rsyncPath $argList+'
+2024-06-12 17:52:27 User backuppc requested backup of 10.14.40.2 (10.14.40.2)
+2024-06-12 17:52:27 Started full backup on 10.14.40.2 (pid=2707, share=/etc/bind)
+2024-06-12 17:52:28 Finished full backup on 10.14.40.2
+2024-06-12 17:52:28 Running BackupPC_link 10.14.40.2 (pid=2713)
+2024-06-12 17:52:28 Finished 10.14.40.2 (BackupPC_link 10.14.40.2)
+2024-06-12 17:54:45 backuppc added IncrKeepCnt to host 10.14.40.2 config, set to 5
+2024-06-12 17:54:45 backuppc added IncrPeriod to host 10.14.40.2 config, set to 7
+2024-06-12 17:54:45 backuppc added FullPeriod to host 10.14.40.2 config, set to 0
+2024-06-12 18:00:00 Next wakeup is 2024-06-12 19:00:00
+2024-06-12 18:00:01 Started full backup on 10.14.40.2 (pid=2919, share=/etc/bind)
+2024-06-12 18:00:01 Finished full backup on 10.14.40.2
+2024-06-12 18:00:01 Running BackupPC_link 10.14.40.2 (pid=2924)
+2024-06-12 18:00:02 Finished 10.14.40.2 (BackupPC_link 10.14.40.2)
+2024-06-12 19:00:01 Next wakeup is 2024-06-12 20:00:00
+2024-06-12 19:00:01 Started full backup on 10.14.40.2 (pid=4483, share=/etc/bind)
+2024-06-12 19:00:02 Finished full backup on 10.14.40.2
+2024-06-12 19:00:02 Running BackupPC_link 10.14.40.2 (pid=4489)
+2024-06-12 19:00:02 Finished 10.14.40.2 (BackupPC_link 10.14.40.2)
+2024-06-12 20:00:00 Next wakeup is 2024-06-12 21:00:00
+2024-06-12 20:00:00 Started full backup on 10.14.40.2 (pid=6113, share=/etc/bind)
+2024-06-12 20:00:01 Finished full backup on 10.14.40.2
+2024-06-12 20:00:01 Running BackupPC_link 10.14.40.2 (pid=6118)
+2024-06-12 20:00:01 Finished 10.14.40.2 (BackupPC_link 10.14.40.2)
+2024-06-12 20:54:50 Got signal TERM... cleaning up
+2024-06-13 07:57:18 Reading hosts file
+2024-06-13 07:57:19 BackupPC started, pid 1076
+2024-06-13 07:57:19 Running BackupPC_trashClean (pid=1101)
+2024-06-13 07:57:20 Next wakeup is 2024-06-13 08:00:00
+2024-06-13 08:00:00 Next wakeup is 2024-06-13 09:00:00
+2024-06-13 08:00:01 Started full backup on 10.14.40.2 (pid=1812, share=/etc/bind)
+2024-06-13 08:00:02 Finished full backup on 10.14.40.2
+2024-06-13 08:00:02 Running BackupPC_link 10.14.40.2 (pid=1818)
+2024-06-13 08:00:02 Finished 10.14.40.2 (BackupPC_link 10.14.40.2)
+2024-06-13 10:00:00 Next wakeup is 2024-06-13 11:00:00
+2024-06-13 10:00:01 Started full backup on 10.14.40.2 (pid=27387, share=/etc/bind)
+2024-06-13 10:00:02 Finished full backup on 10.14.40.2
+2024-06-13 10:00:02 Running BackupPC_link 10.14.40.2 (pid=27392)
+2024-06-13 10:00:02 Finished 10.14.40.2 (BackupPC_link 10.14.40.2)
+2024-06-13 11:00:00 Next wakeup is 2024-06-13 12:00:00
+2024-06-13 12:00:00 Next wakeup is 2024-06-13 13:00:00
+2024-06-13 13:00:00 Next wakeup is 2024-06-13 14:00:00
+2024-06-13 13:31:31 Got signal TERM... cleaning up
+2024-06-13 14:38:22 Reading hosts file
+2024-06-13 14:38:22 BackupPC started, pid 1262
+2024-06-13 14:38:22 Running BackupPC_trashClean (pid=1266)
+2024-06-13 14:38:22 Next wakeup is 2024-06-13 15:00:00
+2024-06-13 15:00:01 Next wakeup is 2024-06-13 16:00:00
+2024-06-13 16:00:00 Next wakeup is 2024-06-13 17:00:00
+2024-06-13 16:56:20 User backuppc requested backup of 10.14.40.2 (10.14.40.2)
+2024-06-13 16:56:20 Started incr backup on 10.14.40.2 (pid=6836, share=/etc/bind)
+2024-06-13 16:56:21 Finished incr backup on 10.14.40.2
+2024-06-13 16:56:21 Running BackupPC_link 10.14.40.2 (pid=6846)
+2024-06-13 16:56:21 Finished 10.14.40.2 (BackupPC_link 10.14.40.2)
+2024-06-13 17:00:01 Next wakeup is 2024-06-13 18:00:00
+2024-06-13 17:29:54 Got signal TERM... cleaning up
+2024-06-13 19:27:26 Reading hosts file
+2024-06-13 19:27:26 BackupPC started, pid 1285
+2024-06-13 19:27:26 Running BackupPC_trashClean (pid=1295)
+2024-06-13 19:27:26 Next wakeup is 2024-06-13 20:00:00
+2024-06-13 20:00:01 Next wakeup is 2024-06-13 21:00:00
+2024-06-13 20:30:05 Got signal TERM... cleaning up
+2024-06-14 09:28:52 Reading hosts file
+2024-06-14 09:28:52 BackupPC started, pid 1051
+2024-06-14 09:28:52 Running BackupPC_trashClean (pid=1058)
+2024-06-14 09:28:52 Next wakeup is 2024-06-14 10:00:00
+2024-06-14 10:00:00 Next wakeup is 2024-06-14 11:00:00
+2024-06-14 10:42:20 backuppc changed FullPeriod in main config to 0 from '6.97'
+2024-06-14 10:42:20 backuppc changed IncrPeriod in main config to 7 from '0.97'
+2024-06-14 10:42:20 backuppc changed IncrKeepCnt in main config to 4 from 6
+2024-06-14 10:42:20 Reloading config/host files via CGI request
+2024-06-14 10:42:20 Next wakeup is 2024-06-14 11:00:00
+2024-06-14 11:00:00 Next wakeup is 2024-06-14 12:00:00

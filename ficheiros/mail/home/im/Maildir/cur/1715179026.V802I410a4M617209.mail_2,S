@@ -1,0 +1,13 @@
+Return-Path: <im@im.web>
+X-Original-To: im
+Delivered-To: im@im.web
+Received: by mail.localdomain (Postfix, from userid 1000)
+	id 93323DFA; Wed,  8 May 2024 14:37:06 +0000 (UTC)
+Date: Wed, 08 May 2024 14:37:06 +0000
+To: im@im.web
+Subject: init
+User-Agent: s-nail v14.9.15
+Message-Id: <20240508143706.93323DFA@mail.localdomain>
+From: im <im@im.web>
+
+init

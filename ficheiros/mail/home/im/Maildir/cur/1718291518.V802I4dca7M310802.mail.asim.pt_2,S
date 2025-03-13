@@ -1,0 +1,14 @@
+Return-Path: <im@mail.asim.pt>
+X-Original-To: im@asim.pt
+Delivered-To: im@asim.pt
+Received: by mail.localdomain (Postfix, from userid 1000)
+	id 48FD8ECA; Thu, 13 Jun 2024 15:11:58 +0000 (UTC)
+Subject: Servidor Os dados foram guardados no ficheiro 'scripts/Backup'. com problemas
+To: <im@asim.pt>
+X-Mailer: mail (GNU Mailutils 3.7)
+Message-Id: <20240613151158.48FD8ECA@mail.localdomain>
+Date: Thu, 13 Jun 2024 15:11:58 +0000 (UTC)
+From: im <im@mail.asim.pt>
+
+Servidor Os dados foram guardados no ficheiro 'scripts/Backup'. tem os seguintes recursos acima do esperado:
+Memória RAM -> Apenas Os dados foram guardados no ficheiro 'scripts/alerts'. MB livres

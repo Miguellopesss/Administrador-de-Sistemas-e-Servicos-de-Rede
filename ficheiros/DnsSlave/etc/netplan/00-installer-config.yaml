@@ -1,0 +1,13 @@
+# This is the network config written by 'subiquity'
+network:
+  ethernets:
+    ens33:
+      dhcp4: true
+      dhcp6: true
+      #addresses: [10.14.40.3/24]
+      # gateway4: 10.14.40.1
+      #nameservers:
+      # addresses: [10.14.40.2]
+    ens37:
+      dhcp4: true  
+  version: 2

@@ -1,0 +1,45 @@
+groups:
+- name: web
+  rules:
+  - alert: HighCPUUsage
+    expr: 100 * (1 - avg(rate(node_cpu_seconds_total{mode="idle", instance="10.14.40.5:9100"}[1m]))) > 90
+    for: 1m
+    labels:
+     severity: critical
+    annotations:
+     summary: "High CPU Usage"
+     description: "Host: Web Server"
+  - alert: WebminDown
+    expr: node_systemd_unit_state{instance="10.14.40.5:9100", job="node", name="webmin.service", state="active", type="forking"} == 0
+    for: 10s
+    labels:
+     severity: page
+    annotations:
+     summary: "Webmin is down"
+     description: "Host: Web Server"
+- name: webmail
+  rules:
+  - alert: HighCPUUsage
+    expr: 100 * (1 - avg(rate(node_cpu_seconds_total{mode="idle", instance="10.14.40.7:9100"}[1m]))) > 90
+    for: 1m
+    labels:
+     severity: critical
+    annotations:
+     summary: "High CPU Usage"
+     description: "Host: Web Mail Server"
+  - alert: WebminDown
+    expr: node_systemd_unit_state{instance="10.14.40.7:9100", job="node", name="webmin.service", state="active", type="forking"} == 0
+    for: 10s
+    labels:
+     severity: page
+    annotations:
+     summary: "Webmin is down"
+     description: "Host: Web Mail Server"
+  - alert: RoundCubeDown
+    expr: node_systemd_unit_state{instance="10.14.40.7:9100", job="node", name="apache2.service", state="active", type="forking"} == 0
+    for: 10s
+    labels:
+     severity: warning
+    annotations:
+     summary: "RoundCube is down - Apache2 Service"
+     description: "Host: Web Mail Server"

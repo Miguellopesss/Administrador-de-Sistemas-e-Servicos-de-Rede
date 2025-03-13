@@ -1,0 +1,13 @@
+zone "asim.pt" IN {
+        type slave;
+        file "forward.asim.pt.signed";
+        masters{ 10.14.40.2; };
+	allow-notify { 10.14.40.2; };
+
+};
+zone "40.14.10.in-addr.arpa" IN {
+        type slave;
+        file "reverse.asim.pt";
+        masters{ 10.14.40.2; };
+	allow-notify { 10.14.40.2; };
+};

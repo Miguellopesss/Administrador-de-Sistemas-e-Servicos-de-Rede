@@ -1,0 +1,30 @@
+Return-Path: <im@im.web>
+X-Original-To: im@im.web
+Delivered-To: im@im.web
+Received: from [10.14.40.1] (unknown [10.14.40.1])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+	 key-exchange ECDHE (P-256) server-signature RSA-PSS (2048 bits) server-digest SHA256)
+	(No client certificate requested)
+	by mail.localdomain (Postfix) with ESMTPSA id D28A1E08
+	for <im@im.web>; Fri, 10 May 2024 08:19:46 +0000 (UTC)
+Date: Fri, 10 May 2024 09:19:31 +0100
+From: im <im@im.web>
+Subject: asd
+To: im <im@im.web>
+Message-Id: <JGG9DS.VLKBM8K1QA852@im.web>
+X-Mailer: geary/44.1
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="=-JuADvV76zW2Ij/tC/elk"
+
+--=-JuADvV76zW2Ij/tC/elk
+Content-Type: text/plain; charset=us-ascii; format=flowed
+
+
+
+
+--=-JuADvV76zW2Ij/tC/elk
+Content-Type: text/html; charset=us-ascii
+
+<div id="geary-body" dir="auto"><div><br></div></div>
+--=-JuADvV76zW2Ij/tC/elk--
+

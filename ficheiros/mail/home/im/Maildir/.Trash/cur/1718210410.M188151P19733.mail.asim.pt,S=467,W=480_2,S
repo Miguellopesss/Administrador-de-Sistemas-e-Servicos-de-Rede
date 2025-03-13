@@ -1,0 +1,13 @@
+Return-Path: <im@mail.asim.pt>
+X-Original-To: im@asim.pt
+Delivered-To: im@asim.pt
+Received: by mail.localdomain (Postfix, from userid 1000)
+	id 42F7779D; Wed, 12 Jun 2024 15:36:11 +0000 (UTC)
+To: <im@asim.pt>
+X-Mailer: mail (GNU Mailutils 3.7)
+Message-Id: <20240612153611.42F7779D@mail.localdomain>
+Date: Wed, 12 Jun 2024 15:36:11 +0000 (UTC)
+From: im <im@mail.asim.pt>
+
+Servidor Mail tem os seguintes recursos acima do esperado:
+Memória RAM -> Apenas 200 MB livres
